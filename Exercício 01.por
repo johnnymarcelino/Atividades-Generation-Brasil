@@ -1,35 +1,40 @@
 programa {
 	funcao inicio() {
-		inteiro meses, dias, idade, mesAtual
-		dias = 365
-		meses = 7
-		escreva("Quantos anos voçê tem ? ")
+		// 1. FaÃ§a um programa que leia a idade de uma pessoa expressa em anos, meses e dias 
+		// e mostre-a expressa apenas em dias.
+		
+		inteiro meses, dias, idade, mesAtual, diaAtual, ano, total
+		ano = 365
+		meses = 12
+		escreva("Quantos anos voÃ§Ãª tem ? ")
 		leia(idade)
-		escreva("Qual mês estamos ? ")
-		leia(mesAtual)
-		escreva("Você tem ", idade, " anos de idade \n")
-		meses = idade * meses - mesAtual
-// 		escreva("\n")
-		escreva("A sua idade convertida para meses é: ", meses)
 		escreva("\n")
-		dias = idade * dias
-		escreva("A sua idade convertida para dias é: ", (dias)
-// 		leia(anos)
-// 		escreva(idade)
-// 		resp = idade365
-// 		escreva(resp)
-		
-// 		inteiro dias, meses, idade, anos, resposta
-// 		inteiro resposta
-// 		dias = 365
-// 		meses = 12
-// 		escreva("Por favor, digite a sua idade. \n")
-// 		leia(idade)
-		
-// 		resposta = (idade*meses)*dias
-		
-// 		escreva("Então sua idade é ")
-// 		escreva(resposta)
-// 		escreva(" Dias")
+		escreva("Qual mÃªs estamos ? ")
+		leia(mesAtual)
+		escreva("\n")
+		escreva("Qual dia do mÃªs Ã© hoje ?")
+		leia(diaAtual)
+		escreva("\n")
+		escreva("VocÃª tem ", idade, " anos de idade \n")
+		meses = idade * meses
+ 		//escreva("\n")
+		escreva("A sua idade convertida para meses Ã©: ", meses)
+		escreva("\n")
+		dias = ((mesAtual * 30) - (30 - diaAtual)) * idade*2
+		escreva("A sua idade convertida para dias Ã©: ", (dias))
+
+
 	}
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 675; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
