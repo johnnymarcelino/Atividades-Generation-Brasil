@@ -1,2 +1,2 @@
 # Atividades - Generation Brasil
-Atividade de introdução à ciência da computação - Gereneration Brasil.
+# Todas as atividades e exercícios propostos pela Generation Brasil
